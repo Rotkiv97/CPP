@@ -1,0 +1,26 @@
+Poiché non ne avrai mai abbastanza di ClapTraps, ora creerai un robot derivato.
+
+Si chiamerà ScavTrap ed erediterà i costruttori e il distruttore da ClapTrap. 
+Tuttavia, i suoi costruttori, distruttore e attack() stamperanno messaggi diversi.
+Dopotutto, i ClapTraps sono consapevoli della propria individualità.
+
+Tieni presente che nei tuoi test deve essere mostrato il corretto concatenamento 
+di costruzione/distruzione.
+Quando viene creato uno ScavTrap, il programma inizia costruendo un ClapTrap. 
+
+La distruzione è in ordine inverso. Perché?
+ScavTrap utilizzerà gli attributi di ClapTrap (aggiorna ClapTrap di conseguenza) 
+è necessario inizializzarli su:
+
+	• Nome, che viene passato come parametro a un costruttore
+	• I punti ferita (100), rappresentano la salute del ClapTrap
+	• Punti energia (50)
+	• Danno da attacco (20)
+
+ScavTrap avrà anche una sua capacità speciale:
+	void guardGate();
+
+Questa funzione membro visualizzerà un messaggio che informa che ScavTrap è ora in Gate
+modalità custode.
+
+Non dimenticare di aggiungere altri test al tuo programma.
