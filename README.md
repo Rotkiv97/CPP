@@ -27,4 +27,6 @@ make
 
 Read the ```NAME``` in the makefile.
 
-example: ![images](./Docks/img/outoput.png)
+example: 
+
+![images](./Docks/img/outoput.png)
