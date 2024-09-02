@@ -17,3 +17,14 @@ The CPP is a project divided into 10 small modules, where we are introduced to t
 | [C++08](./C08/)    | [Subject](./Docks/subject/C08.subject.pdf)    |
 | [C++09](./C09/)    | [Subject](./Docks/subject/C09.subject.pdf)    |
 
+## Testing
+
+Enter the various folders where the makefiles are and open the terminal.
+
+```bash
+make
+```
+
+Read the ```NAME``` in the makefile.
+
+example: ![images](./Docks/img/outoput.png)

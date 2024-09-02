@@ -18,7 +18,7 @@
 int main(int ac, char **av)
 {
 	(void)ac;
-	if(av[1] == '\0')
+	if(av[1] == NULL)
 	{
 		std::cout << "* LOUD AND UNBEARABLE FEEDBACK NOISE *" << std::endl;
 		return(0);
